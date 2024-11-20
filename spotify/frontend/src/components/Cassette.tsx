@@ -7,8 +7,8 @@ import rotator from "../assets/images/rotator.png";
 const Casette = () => {
     return (
         <div id="casette">
-            <img src={rotator} />
-            <img src={rotator} />
+            <img src={rotator} className="image"/>
+            <img src={rotator} className="image"/>
         </div>
     )
 }

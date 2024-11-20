@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Casette from './components/Cassette';
 import Logo from './components/Logo';
 import Footer from './components/Footer';
+import MainPart from './components/MainPart';
 import {Greet} from "../wailsjs/go/main/App";
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
         <div id="App">
             <Navbar />
             <Casette />
-            <Logo />
-            <Footer />
+            <MainPart />
+            <Footer time="0:00" duration="2:13"/>
         </div>
     )
 }

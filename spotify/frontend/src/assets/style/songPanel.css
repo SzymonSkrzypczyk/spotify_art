@@ -1,0 +1,13 @@
+#song-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#song-title{
+    margin: 0;
+}
+
+#song-author{
+    margin: 0;
+}
