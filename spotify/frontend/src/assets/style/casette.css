@@ -1,0 +1,10 @@
+#casette{
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: rgb(24, 238, 24) 1px solid;
+    border-radius: 20%/50%;
+}

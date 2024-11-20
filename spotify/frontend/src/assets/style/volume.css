@@ -1,0 +1,23 @@
+.bar{
+    width: 1px;
+    background-color: white;
+}
+
+#bars{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 1px;
+}
+
+#volume{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 2px;
+}
+
+#volume-label{
+    font-size: 30px;
+}

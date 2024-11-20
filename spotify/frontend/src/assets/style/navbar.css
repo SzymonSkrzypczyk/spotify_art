@@ -1,0 +1,6 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    border-bottom: rgb(255, 255, 255) 1px solid;
+    align-items: flex-end;
+}
